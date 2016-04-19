@@ -17,7 +17,7 @@ abstract class Model_Backup {
 	 * 
 	 * @param string $file
 	 */
-	protected function __construct($file = NULL) 
+	public function __construct($file = NULL) 
 	{
 		$this->file = $file;
 	}
